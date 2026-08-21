@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on João&#39;s site</title>
+    <link>http://localhost:1313/tags/game/</link>
+    <description>Recent content in Game on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/game/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Slime Defense</title>
+      <link>http://localhost:1313/works/games/slime-defense/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/slime-defense/</guid>
+      <description>&lt;p&gt;It is a tower defense were you are a slime that is trying to protect your treasure chest from a variaety of enemies. You have the ability to walk through the map and collect resources, so you can create friends with your body pieces to help protecting your precious fortune.&lt;/p&gt;
+&lt;p&gt;I made with Eduardo Evaristo for a culture and extension class.&lt;/p&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: 2 people&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 6 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer and graphic designer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pirate Ship Battles</title>
+      <link>http://localhost:1313/works/games/pirate-ship-battles/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/pirate-ship-battles/</guid>
+      <description>&lt;p&gt;An io-like online multiplayer, where you control a pirate ship and have to shoot other people&amp;rsquo;s ships to destroy them. It&amp;rsquo;s a browser game, that can be played either from desktop or from mobile devices.&lt;/p&gt;
+&lt;p&gt;The project had two phases. I contributed a lot for the first one, but after that it was used as an agile methodology classes&amp;rsquo; project, that I was not enrolled, so I stopped contributing to it and started supporting the other developers&amp;rsquo;s work.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deviant</title>
+      <link>http://localhost:1313/works/games/deviant/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/deviant/</guid>
+      <description>&lt;p&gt;A visual novel that happens in a dystopic future where aggerssive monopolies run the world.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;A simple tower defense game, where you build cannon towers to prevent monsters from passing through the path.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maze</title>
+      <link>http://localhost:1313/works/games/maze/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/maze/</guid>
+      <description>&lt;p&gt;A 3D game that emulates an analogical maze toy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Missile Command</title>
+      <link>http://localhost:1313/works/games/missile-command/</link>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/missile-command/</guid>
+      <description>&lt;p&gt;My version of the classic Missile Command game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tetris</title>
+      <link>http://localhost:1313/works/games/tetris/</link>
+      <pubDate>Sun, 06 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tetris/</guid>
+      <description>&lt;p&gt;My version of the classic Tetris game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/works/games/snake/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/snake/</guid>
+      <description>&lt;p&gt;My version of the classic Snake game.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

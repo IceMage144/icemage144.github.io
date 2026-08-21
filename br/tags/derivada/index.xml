@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derivada on João&#39;s site</title>
+    <link>http://localhost:1313/br/tags/derivada/</link>
+    <description>Recent content in Derivada on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <lastBuildDate>Tue, 15 Nov 2016 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/derivada/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Calculadora de derivada</title>
+      <link>http://localhost:1313/br/works/apps/derivative-calculator/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/apps/derivative-calculator/</guid>
+      <description>&lt;p&gt;Esse app calcula a derivada de uma função. Ele transforma o texto da função em uma árvore contendo operadores, números e variáveis, percorre a árvore derivando as funções e depois a transforma texto LaTeX, para que o resultado possa ser mostrado.&lt;/p&gt;
+&lt;p&gt;Ele não é muito otimizado, então pode ser necessário fazer alguma manipulação algébrica no resultado.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://localhost:1313/css/derivative.css&#34; /&gt;
+&lt;h2 id=&#34;função&#34;&gt;Função&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;formInput&#34;/&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;variável&#34;&gt;Variável&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;varInput&#34;/&gt;
+&lt;/div&gt;
+&lt;input id=&#34;calc&#34; type=&#34;submit&#34; value=&#34;Calcular&#34; onclick=&#34;main()&#34;/&gt;
+&lt;script&gt;
+  var a = function(e) {
+    if (e.keyCode == 13)
+      document.getElementById(&#39;calc&#39;).click();
+  }
+  document.getElementById(&#39;formInput&#39;).onkeypress = a
+  document.getElementById(&#39;varInput&#39;).onkeypress = a
+&lt;/script&gt;
+&lt;p id=&#34;result&#34; class=&#34;output&#34;&gt;..........&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

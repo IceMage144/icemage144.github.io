@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snake on João&#39;s site</title>
+    <link>http://localhost:1313/br/tags/snake/</link>
+    <description>Recent content in Snake on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <lastBuildDate>Sun, 16 Jul 2017 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/snake/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Snake</title>
+      <link>http://localhost:1313/br/works/games/snake/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/games/snake/</guid>
+      <description>&lt;p&gt;Minha versão do clássico jogo Snake.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

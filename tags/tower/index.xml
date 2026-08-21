@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tower on João&#39;s site</title>
+    <link>http://localhost:1313/tags/tower/</link>
+    <description>Recent content in Tower on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/tower/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Slime Defense</title>
+      <link>http://localhost:1313/works/games/slime-defense/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/slime-defense/</guid>
+      <description>&lt;p&gt;It is a tower defense were you are a slime that is trying to protect your treasure chest from a variaety of enemies. You have the ability to walk through the map and collect resources, so you can create friends with your body pieces to help protecting your precious fortune.&lt;/p&gt;
+&lt;p&gt;I made with Eduardo Evaristo for a culture and extension class.&lt;/p&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: 2 people&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 6 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer and graphic designer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;A simple tower defense game, where you build cannon towers to prevent monsters from passing through the path.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

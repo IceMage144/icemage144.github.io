@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multiplayer on João&#39;s site</title>
+    <link>http://localhost:1313/br/tags/multiplayer/</link>
+    <description>Recent content in Multiplayer on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/multiplayer/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Pirate Ship Battles</title>
+      <link>http://localhost:1313/br/works/games/pirate-ship-battles/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/games/pirate-ship-battles/</guid>
+      <description>&lt;p&gt;Um io-like online multijogador, onde você controla um navio pirata e tem que atirar nos navios das outras pessoas para destruí-los. É um jogo de browser, que pode tanto ser jogado em desktop quanto no smartphone.&lt;/p&gt;
+&lt;p&gt;O projeto teve duas fases. Eu contribuí muito na primeira, mas depois disso ele foi usado como projeto em uma matéria de métodos ágeis que eu não estava inscrito, então parei de contribuir e passei a mentorar os outros programadores que começaram a trabalhar nele.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,5 +1,0 @@
-customMenus:
-- name: Works
-  url: works
-  hideFromNavbar: false
-  showOnFooter: true

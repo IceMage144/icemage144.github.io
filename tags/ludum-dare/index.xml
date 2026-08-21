@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ludum Dare on João&#39;s site</title>
+    <link>http://localhost:1313/tags/ludum-dare/</link>
+    <description>Recent content in Ludum Dare on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Apr 2019 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/ludum-dare/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Ludum Dare 44</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-44/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-44/</guid>
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Sinner&amp;rdquo;. The theme was &amp;ldquo;Your life is currency&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 43</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-43/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-43/</guid>
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Mechamorphosis&amp;rdquo;, a game where you are a rusty robot that was captured by an evil organization that wants to turn you and your friends into mechanical waste. The goal is to aquire new parts to yourself, defeat all the guard robots and escape the building.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;Sacrifices must be made&amp;rdquo;, we created a mechanic where you have to sacrifice a part and get a new one to get to the next room. Some parts give you buffs and other debuffs, and you have to deal with them through the game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 41</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-41/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-41/</guid>
+      <description>&lt;p&gt;We made &amp;ldquo;It&amp;rsquo;s all about lasagna!&amp;rdquo;, a farming game with a terror mood, where a kid goes to their grandma&amp;rsquo;s house and decides to make a lasagna while she doesn&amp;rsquo;t arrive.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;Combine two incompatible genres&amp;rdquo;, and we combined the peaceful and harmless life at the farm with the mood of a terror movie.&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 3 days&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: Online&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Place&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; (17 people)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uspgamedev.itch.io/its-all-about-lasagna&#34;&gt;Play it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uspgamedev/lasagna&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/its-all-about-lasagna&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 40</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-40/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-40/</guid>
+      <description>&lt;p&gt;We made &amp;ldquo;L.A.V.A. series L.A.M.P. edition vs the world&amp;rdquo;, a cyberpunk shooter, where the goal is to kill as many waves of monsters you can, using dozens of different weapons.&lt;/p&gt;
+&lt;p&gt;This edition&amp;rsquo;s theme was &amp;ldquo;The more you have, the worse it is&amp;rdquo;. You get a new weapon after each wave, and have to assign each one to a different key in the keyboard. As the time passes it gets harder to remember were each weapon was.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

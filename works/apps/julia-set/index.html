@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Julia Set Visualizer</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+
+
+	<meta itemprop="name" content="Julia Set Visualizer">
+	<meta itemprop="description" content="An online tool for visualizing Julia Sets.">
+	<meta itemprop="datePublished" content="2018-02-01T00:00:00-03:00">
+	<meta itemprop="dateModified" content="2018-02-01T00:00:00-03:00">
+	<meta itemprop="wordCount" content="191">
+	<meta itemprop="image" content="http://localhost:1313/works/apps/julia-set/julia-set-cover.png">
+	<meta itemprop="keywords" content="Julia,Set,App">
+
+    
+    
+<meta name="description" content="An online tool for visualizing Julia Sets." />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      João&#39;s site</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-gb"></span>
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/br/works/apps/julia-set">
+          
+          <span class="flag-icon flag-icon-br"></span>
+          Português
+        </a>
+      
+    </div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/works/game-jams/">Game Jams</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/livre-game-jam-2017/" title="Livre Game Jam 2017">Livre Game Jam 2017</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/ludum-dare-40/" title="Ludum Dare 40">Ludum Dare 40</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/ludum-dare-41/" title="Ludum Dare 41">Ludum Dare 41</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/livre-game-jam-2018/" title="Livre Game Jam 2018">Livre Game Jam 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/ludum-dare-43/" title="Ludum Dare 43">Ludum Dare 43</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/global-game-jam-2019/" title="Global Game Jam 2019">Global Game Jam 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/ludum-dare-44/" title="Ludum Dare 44">Ludum Dare 44</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/game-jams/global-game-jam-2020/" title="Global Game Jam 2020">Global Game Jam 2020</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/works/games/">Games</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/snake/" title="Snake">Snake</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/tetris/" title="Teris">Teris</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/maze/" title="Maze">Maze</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/missile-command/" title="Missile Command">Missile Command</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/tower-defense/" title="Monster Invasion">Monster Invasion</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/pirate-ship-battles/" title="Pirate Ship Battles">Pirate Ship Battles</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/slime-defense/" title="Slime Defense">Slime Defense</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/games/deviant/" title="Deviant">Deviant</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/works/apps/">Apps</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/apps/derivative-calculator/" title="Derivative Calculator">Derivative Calculator</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/works/apps/julia-set/" title="Julia Set Visualizer">Julia Set Visualizer</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/apps/rotalize/" title="Rotalize">Rotalize</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/works/hackathons/">Hackathons</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/works/hackathons/smart-cities/" title="Hackathon USP 2017">Hackathon USP 2017</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(http://localhost:1313/works/apps/julia-set/julia-set-cover.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/me_hu_a257089f0c91d605.jpg' alt="Author Image">
+          <h5 class="author-name">João Gabriel</h5>
+          <p>Thursday, February 1, 2018</p>
+        </div>
+
+        <div class="title">
+          <h1>Julia Set Visualizer</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>This app generates pictures of the Julia sets.</p>
+<p>The Julia set of a complex point c is defined to be the set of complex points z such that the following sequence does not diverge.</p>
+<p>$$a_0 = z$$
+$$a_n = a_{n-1}^2 + c$$</p>
+<p>This app generates a picture coloring each point of the complex plane with a different color depending on how &ldquo;quickly&rdquo; the sequence diverges when it starts at that point.</p>
+<p>Since the Mandelbrot set is deeply linked with the Julia set (c is a point of the Mandelbrot set if, and only if, the Julia set of that point is not empty) the app displays a picture of the Mandelbrot set to guide the choice of c.</p>
+<link rel="stylesheet" href="/css/julia.css">
+<div id="gamediv">
+  <div class="julia-row">
+    <div class="julia-column">
+      <h2>Julia</h2>
+      <canvas id="julia"></canvas>
+    </div>
+    <div class="julia-column">
+      <h2>Mandelbrot</h2>
+      <canvas id="mand"></canvas>
+    </div>
+  </div>
+</div>
+<div class="input-group">
+  <p class="row-el" style="font-size: 20px"> c = </p>
+  <div class="row-el">
+    <div class="inputBorder">
+      <input type="text" id="real"/>
+    </div>
+  </div>
+  <p class="row-el" style="font-size: 20px"> + i </p>
+  <div class="row-el">
+    <div class="inputBorder">
+      <input type="text" id="imaginary"/>
+    </div>
+  </div>
+  <input id="sub" class="row-el" type="submit" value="Submit" onClick="sub()"/>
+</div>
+<div class="res-group">
+  <p id="res" class="row-el">Resolution: 200</p>
+  <input class="row-el" type="submit" value="+" onClick="increaseResol()"/>
+  <input class="row-el" type="submit" value="-" onClick="decreaseResol()"/>
+</div>
+<script>
+  var onKeyPress = function(event)
+  {
+    if (event.keyCode == 13)
+    {
+      document.getElementById('sub').click();
+    }
+  }
+  document.getElementById('real').onkeypress = onKeyPress
+  document.getElementById('imaginary').onkeypress = onKeyPress
+</script>
+<script type="text/javascript" src="/js/game_engine.js"></script>
+<script type="text/javascript" src="/js/julia_script.js"></script>
+<h2 id="how-to-use">How to use</h2>
+<ul>
+<li>Enter a complex number at the fields and submit it to see the corresponding Julia set on the left canvas</li>
+<li>You can hold the Z key and point with the mouse to the Mandelbrot set, so you can see the Julia set of that point on the left canvas</li>
+<li>You can increase or decrease the resolution using the &ldquo;+&rdquo; and &ldquo;-&rdquo; buttons</li>
+</ul>
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/works/apps/derivative-calculator/" title="Derivative Calculator" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Derivative Calculator</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/works/apps/rotalize/" title="Rotalize" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Rotalize</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <span class="flag-icon flag-icon-gb"></span>
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/br/works/apps/julia-set">
+            
+            <span class="flag-icon flag-icon-br"></span>
+            Português
+        </a>
+        
+    </div>
+</div>
+
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#projects">Projects</a>
+                </li>
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="works">Works</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_be7279b2506ad3f1.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2026 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+    <link rel="stylesheet" href="/katex/katex.min.css">
+<script type="text/javascript" defer src="/katex/katex.min.js"></script>
+<script type="text/javascript" defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);">
+    renderMathInElement(
+        document.body,
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+</script>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

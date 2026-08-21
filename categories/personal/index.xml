@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on João&#39;s site</title>
+    <link>http://localhost:1313/categories/personal/</link>
+    <description>Recent content in Personal on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Julia Set Visualizer</title>
+      <link>http://localhost:1313/works/apps/julia-set/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/apps/julia-set/</guid>
+      <description>&lt;p&gt;This app generates pictures of the Julia sets.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;A simple tower defense game, where you build cannon towers to prevent monsters from passing through the path.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maze</title>
+      <link>http://localhost:1313/works/games/maze/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/maze/</guid>
+      <description>&lt;p&gt;A 3D game that emulates an analogical maze toy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Missile Command</title>
+      <link>http://localhost:1313/works/games/missile-command/</link>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/missile-command/</guid>
+      <description>&lt;p&gt;My version of the classic Missile Command game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tetris</title>
+      <link>http://localhost:1313/works/games/tetris/</link>
+      <pubDate>Sun, 06 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tetris/</guid>
+      <description>&lt;p&gt;My version of the classic Tetris game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/works/games/snake/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/snake/</guid>
+      <description>&lt;p&gt;My version of the classic Snake game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Derivative Calculator</title>
+      <link>http://localhost:1313/works/apps/derivative-calculator/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/apps/derivative-calculator/</guid>
+      <description>&lt;p&gt;This app calculates the derivative of a function for you. It parses the input into a tree of operators, numbers and variables, passes through the tree deriving the functions and then transforms it back to LaTeX, so the result can be shown.&lt;/p&gt;
+&lt;p&gt;It is not optmized, so you may have to do some algebraic manipulations to simplify the result.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://localhost:1313/css/derivative.css&#34; /&gt;
+&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;formInput&#34;/&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;variable&#34;&gt;Variable&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;varInput&#34;/&gt;
+&lt;/div&gt;
+&lt;input id=&#34;calc&#34; type=&#34;submit&#34; value=&#34;Calculate&#34; onclick=&#34;main()&#34;/&gt;
+&lt;script&gt;
+  var a = function(e) {
+    if (e.keyCode == 13)
+      document.getElementById(&#39;calc&#39;).click();
+  }
+  document.getElementById(&#39;formInput&#39;).onkeypress = a
+  document.getElementById(&#39;varInput&#39;).onkeypress = a
+&lt;/script&gt;
+&lt;p id=&#34;result&#34; class=&#34;output&#34;&gt;..........&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

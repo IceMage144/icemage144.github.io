@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pirate on João&#39;s site</title>
+    <link>http://localhost:1313/tags/pirate/</link>
+    <description>Recent content in Pirate on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/pirate/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Pirate Ship Battles</title>
+      <link>http://localhost:1313/works/games/pirate-ship-battles/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/pirate-ship-battles/</guid>
+      <description>&lt;p&gt;An io-like online multiplayer, where you control a pirate ship and have to shoot other people&amp;rsquo;s ships to destroy them. It&amp;rsquo;s a browser game, that can be played either from desktop or from mobile devices.&lt;/p&gt;
+&lt;p&gt;The project had two phases. I contributed a lot for the first one, but after that it was used as an agile methodology classes&amp;rsquo; project, that I was not enrolled, so I stopped contributing to it and started supporting the other developers&amp;rsquo;s work.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

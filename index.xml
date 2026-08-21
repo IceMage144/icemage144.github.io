@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>João&#39;s site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <item>
+      <title>Global Game Jam 2020</title>
+      <link>http://localhost:1313/works/game-jams/global-game-jam-2020/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/global-game-jam-2020/</guid>
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups. The theme was &amp;ldquo;Repair&amp;rdquo;. My group created &amp;ldquo;Keeping It Up&amp;rdquo;, a game about keeping your constructions up while you defend the city against evil aliens.&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2 days&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: Presential&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Place&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: 4 people&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Graphic designer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 44</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-44/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-44/</guid>
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Sinner&amp;rdquo;. The theme was &amp;ldquo;Your life is currency&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2019</title>
+      <link>http://localhost:1313/works/game-jams/global-game-jam-2019/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/global-game-jam-2019/</guid>
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups.&lt;/p&gt;
+&lt;p&gt;My group created &amp;ldquo;Mother&amp;rsquo;s home&amp;rdquo;, a game where you are a little creative kid that adventures through an imaginary maze in his house to play with his toys, but don&amp;rsquo;t want to get far from his mom.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;What home means to you?&amp;rdquo;, and the game explores how the house feels like an unknown place to the kid, as his mother is his real home.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 43</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-43/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-43/</guid>
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Mechamorphosis&amp;rdquo;, a game where you are a rusty robot that was captured by an evil organization that wants to turn you and your friends into mechanical waste. The goal is to aquire new parts to yourself, defeat all the guard robots and escape the building.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;Sacrifices must be made&amp;rdquo;, we created a mechanic where you have to sacrifice a part and get a new one to get to the next room. Some parts give you buffs and other debuffs, and you have to deal with them through the game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Slime Defense</title>
+      <link>http://localhost:1313/works/games/slime-defense/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/slime-defense/</guid>
+      <description>&lt;p&gt;It is a tower defense were you are a slime that is trying to protect your treasure chest from a variaety of enemies. You have the ability to walk through the map and collect resources, so you can create friends with your body pieces to help protecting your precious fortune.&lt;/p&gt;
+&lt;p&gt;I made with Eduardo Evaristo for a culture and extension class.&lt;/p&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: 2 people&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 6 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer and graphic designer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Livre Game Jam 2018</title>
+      <link>http://localhost:1313/works/game-jams/livre-game-jam-2018/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/livre-game-jam-2018/</guid>
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Shin Ara Loop&amp;rdquo;, a game where the main character is stuck in a time loop, in a way that she goes back to its start when she sleeps (like what happens at &lt;a href=&#34;https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29&#34;&gt;&amp;ldquo;Groundhog Day&amp;rdquo;&lt;/a&gt;. To make sure this doesn&amp;rsquo;t happen anymore, you heve to help her to fix the the church&amp;rsquo;s clock.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;Finally, now i&amp;rsquo;m truly free&amp;rdquo;, and the jam also had some achievements (like optional sub-themes), and we acomplished two of them:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pirate Ship Battles</title>
+      <link>http://localhost:1313/works/games/pirate-ship-battles/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/pirate-ship-battles/</guid>
+      <description>&lt;p&gt;An io-like online multiplayer, where you control a pirate ship and have to shoot other people&amp;rsquo;s ships to destroy them. It&amp;rsquo;s a browser game, that can be played either from desktop or from mobile devices.&lt;/p&gt;
+&lt;p&gt;The project had two phases. I contributed a lot for the first one, but after that it was used as an agile methodology classes&amp;rsquo; project, that I was not enrolled, so I stopped contributing to it and started supporting the other developers&amp;rsquo;s work.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rotalize</title>
+      <link>http://localhost:1313/works/apps/rotalize/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/apps/rotalize/</guid>
+      <description>&lt;p&gt;An app that helps you creating travel itineraries. I made it together with some friends for a programming techniques class.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 41</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-41/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-41/</guid>
+      <description>&lt;p&gt;We made &amp;ldquo;It&amp;rsquo;s all about lasagna!&amp;rdquo;, a farming game with a terror mood, where a kid goes to their grandma&amp;rsquo;s house and decides to make a lasagna while she doesn&amp;rsquo;t arrive.&lt;/p&gt;
+&lt;p&gt;The theme was &amp;ldquo;Combine two incompatible genres&amp;rdquo;, and we combined the peaceful and harmless life at the farm with the mood of a terror movie.&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 3 days&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: Online&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Place&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; (17 people)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uspgamedev.itch.io/its-all-about-lasagna&#34;&gt;Play it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uspgamedev/lasagna&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/its-all-about-lasagna&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deviant</title>
+      <link>http://localhost:1313/works/games/deviant/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/deviant/</guid>
+      <description>&lt;p&gt;A visual novel that happens in a dystopic future where aggerssive monopolies run the world.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Julia Set Visualizer</title>
+      <link>http://localhost:1313/works/apps/julia-set/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/apps/julia-set/</guid>
+      <description>&lt;p&gt;This app generates pictures of the Julia sets.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 40</title>
+      <link>http://localhost:1313/works/game-jams/ludum-dare-40/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/ludum-dare-40/</guid>
+      <description>&lt;p&gt;We made &amp;ldquo;L.A.V.A. series L.A.M.P. edition vs the world&amp;rdquo;, a cyberpunk shooter, where the goal is to kill as many waves of monsters you can, using dozens of different weapons.&lt;/p&gt;
+&lt;p&gt;This edition&amp;rsquo;s theme was &amp;ldquo;The more you have, the worse it is&amp;rdquo;. You get a new weapon after each wave, and have to assign each one to a different key in the keyboard. As the time passes it gets harder to remember were each weapon was.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;A simple tower defense game, where you build cannon towers to prevent monsters from passing through the path.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hackathon USP 2017</title>
+      <link>http://localhost:1313/works/hackathons/smart-cities/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/hackathons/smart-cities/</guid>
+      <description>&lt;p&gt;A 24-hour hackathon organized by our fellows from USP, at the theme &amp;ldquo;Smart Cities&amp;rdquo;. I participated together with my friend Raphael Gusmão. We made the project &amp;ldquo;Stuffz&amp;rdquo;, an app for delivering anything you want. The project got honor to merit for the best design.&lt;/p&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Framework&lt;/strong&gt;: Django (Python)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Back-end developer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/IceMage144/Stuffz&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Livre Game Jam 2017</title>
+      <link>http://localhost:1313/works/game-jams/livre-game-jam-2017/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/game-jams/livre-game-jam-2017/</guid>
+      <description>&lt;p&gt;A 48-hour game jam organized by &lt;a href=&#34;https://www.livrecamp.org/&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34;&gt;Gamux&lt;/a&gt; and &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34;&gt;Fellowship of the game&lt;/a&gt; to promote the use of free software. Our team from &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; went to UNICAMP to participate.&lt;/p&gt;
+&lt;p&gt;We made the game &amp;ldquo;Network Battle: Chain Hostility&amp;rdquo;, an assimetric multiplayer game about a cyberwar between a hacker and the government.&lt;/p&gt;
+&lt;p&gt;The jam had the 4 themes listed below, from which the the groups had to choose two.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Less is more&lt;/li&gt;
+&lt;li&gt;Viral&lt;/li&gt;
+&lt;li&gt;Links&lt;/li&gt;
+&lt;li&gt;Privacy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It also had 9 achievements, from which our group won two of them&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maze</title>
+      <link>http://localhost:1313/works/games/maze/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/maze/</guid>
+      <description>&lt;p&gt;A 3D game that emulates an analogical maze toy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Missile Command</title>
+      <link>http://localhost:1313/works/games/missile-command/</link>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/missile-command/</guid>
+      <description>&lt;p&gt;My version of the classic Missile Command game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tetris</title>
+      <link>http://localhost:1313/works/games/tetris/</link>
+      <pubDate>Sun, 06 Aug 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/tetris/</guid>
+      <description>&lt;p&gt;My version of the classic Tetris game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/works/games/snake/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/games/snake/</guid>
+      <description>&lt;p&gt;My version of the classic Snake game.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Derivative Calculator</title>
+      <link>http://localhost:1313/works/apps/derivative-calculator/</link>
+      <pubDate>Tue, 15 Nov 2016 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/apps/derivative-calculator/</guid>
+      <description>&lt;p&gt;This app calculates the derivative of a function for you. It parses the input into a tree of operators, numbers and variables, passes through the tree deriving the functions and then transforms it back to LaTeX, so the result can be shown.&lt;/p&gt;
+&lt;p&gt;It is not optmized, so you may have to do some algebraic manipulations to simplify the result.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://localhost:1313/css/derivative.css&#34; /&gt;
+&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;formInput&#34;/&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;variable&#34;&gt;Variable&lt;/h2&gt;
+&lt;div class=&#34;inputBorder&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;varInput&#34;/&gt;
+&lt;/div&gt;
+&lt;input id=&#34;calc&#34; type=&#34;submit&#34; value=&#34;Calculate&#34; onclick=&#34;main()&#34;/&gt;
+&lt;script&gt;
+  var a = function(e) {
+    if (e.keyCode == 13)
+      document.getElementById(&#39;calc&#39;).click();
+  }
+  document.getElementById(&#39;formInput&#39;).onkeypress = a
+  document.getElementById(&#39;varInput&#39;).onkeypress = a
+&lt;/script&gt;
+&lt;p id=&#34;result&#34; class=&#34;output&#34;&gt;..........&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

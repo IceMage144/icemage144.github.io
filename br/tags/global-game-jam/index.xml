@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global Game Jam on João&#39;s site</title>
+    <link>http://localhost:1313/br/tags/global-game-jam/</link>
+    <description>Recent content in Global Game Jam on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/global-game-jam/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Global Game Jam 2020</title>
+      <link>http://localhost:1313/br/works/game-jams/global-game-jam-2020/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/game-jams/global-game-jam-2020/</guid>
+      <description>&lt;p&gt;Uma game jam de 48 horas. O &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34;&gt;IME hospedou uma sede&lt;/a&gt; da GGJ e nós dividimos o &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; em dois grupos.&lt;/p&gt;
+&lt;p&gt;Meu grupo criou o &amp;ldquo;Keeping It Up&amp;rdquo; (em português, &amp;ldquo;Mantendo de pé&amp;rdquo;), um jogo sobre manter suas construções de pé enquanto você defende a cidade de aliens malvados. O tema foi &amp;ldquo;Repair&amp;rdquo; (em português, &amp;ldquo;Consertar&amp;rdquo;).&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 2 dias&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modelo&lt;/strong&gt;: Presencial&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;projeto&#34;&gt;Projeto&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: 4 pessoas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minha função&lt;/strong&gt;: Designer Gráfico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34;&gt;Submissão&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2019</title>
+      <link>http://localhost:1313/br/works/game-jams/global-game-jam-2019/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/game-jams/global-game-jam-2019/</guid>
+      <description>&lt;p&gt;Uma game jam de 48 horas. O &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34;&gt;IME hospedou uma sede&lt;/a&gt; da GGJ e nós dividimos o &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; em dois grupos.&lt;/p&gt;
+&lt;p&gt;Meu grupo criou o &amp;ldquo;Mother&amp;rsquo;s home&amp;rdquo; (pode ser lido como &amp;ldquo;Lar da mãe&amp;rdquo; ou &amp;ldquo;Mãe é o lar&amp;rdquo;), um jogo onde você é uma pequena criança criativa que se aventura por um labirinto imaginário na sua casa para brincar com seus brinquedos, mas não quer ficar muito longe de sua mãe.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

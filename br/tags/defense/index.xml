@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defense on João&#39;s site</title>
+    <link>http://localhost:1313/br/tags/defense/</link>
+    <description>Recent content in Defense on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/defense/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Slime Defense</title>
+      <link>http://localhost:1313/br/works/games/slime-defense/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/games/slime-defense/</guid>
+      <description>&lt;p&gt;Slime Defense é um jogo de defender a torre onde você é uma slime que está tentando proteger seu baú do tesuro de vários inimigos. Você tem a habilidade de andar pelo cenário, coletar recursos, e criar amigos com pedaços do seu corpo para ajudar a proteger sua fortuna preciosa.&lt;/p&gt;
+&lt;p&gt;Fiz em conjunto com Eduardo Evaristo para uma matéria de cultura e extensão.&lt;/p&gt;
+&lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2 pessoas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 6 meses&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minha função&lt;/strong&gt;: Programador e designer gráfico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/br/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/br/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;Um simples jogo de defender a torre, onde vocêtem que construir torres com canhões para previnir que os monstros passem por todo o caminho.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
