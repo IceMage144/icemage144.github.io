@@ -6,7 +6,8 @@
     <description>Recent content in Deviant on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/deviant/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/deviant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Deviant</title>
       <link>http://localhost:1313/works/games/deviant/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 -0300</pubDate>
@@ -14,7 +15,6 @@
       <guid>http://localhost:1313/works/games/deviant/</guid>
       <description>&lt;p&gt;A visual novel that happens in a dystopic future where aggerssive monopolies run the world.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

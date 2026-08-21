@@ -6,13 +6,14 @@
     <description>Recent content in Events on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
-    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/events/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Livre Game Jam 2018</title>
       <link>http://localhost:1313/br/works/game-jams/livre-game-jam-2018/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/br/works/game-jams/livre-game-jam-2018/</guid>
-      <description>&lt;p&gt;Nessa jam nós fizemos o &amp;ldquo;Shin Ara Loop&amp;rdquo;, um jogo onde a protagonista fica presa em um loop temporal, de forma que toda vez que ela dorme ela volta para o começo do dia (como acontece no filme &lt;a href=&#34;https://pt.wikipedia.org/wiki/Groundhog_Day&#34;&gt;&amp;ldquo;Feitiço do Tempo&amp;rdquo;&lt;/a&gt;) e, para fazer com que isso não aconteça mais, você tem que guiá-la para consertar o relógio da igreja da cidade.&lt;/p&gt;
+      <description>&lt;p&gt;Nessa jam nós fizemos o &amp;ldquo;Shin Ara Loop&amp;rdquo;, um jogo onde a protagonista fica presa em um loop temporal, de forma que toda vez que ela dorme ela volta para o começo do dia (como acontece no filme &lt;a href=&#34;https://pt.wikipedia.org/wiki/Groundhog_Day&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Feitiço do Tempo&amp;rdquo;&lt;/a&gt;) e, para fazer com que isso não aconteça mais, você tem que guiá-la para consertar o relógio da igreja da cidade.&lt;/p&gt;
 &lt;p&gt;O tema foi &amp;ldquo;Finalmente, agora sim estou livre&amp;rdquo;, e a jam também tinha alguns achievements (como se fossem sub-temas opcionais), e nós completamos dois deles:&lt;/p&gt;</description>
     </item>
     
@@ -22,11 +23,10 @@
       <pubDate>Sat, 21 Oct 2017 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/br/works/game-jams/livre-game-jam-2017/</guid>
-      <description>&lt;p&gt;Uma game jam de 48 horas organizada por &lt;a href=&#34;https://www.livrecamp.org/&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34;&gt;Gamux&lt;/a&gt; e &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34;&gt;Fellowship of the game&lt;/a&gt; para promover o uso de software livre. Nossa equipe do &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; foi à UNICAMP para participar.&lt;/p&gt;
+      <description>&lt;p&gt;Uma game jam de 48 horas organizada por &lt;a href=&#34;https://www.livrecamp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gamux&lt;/a&gt; e &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fellowship of the game&lt;/a&gt; para promover o uso de software livre. Nossa equipe do &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; foi à UNICAMP para participar.&lt;/p&gt;
 &lt;p&gt;Nós fizemos o jogo &amp;ldquo;Network Battle: Chain Hostility&amp;rdquo; (em português, &amp;ldquo;Batalha na rede: Hostilidade em cadeia&amp;rdquo;), um jogo multijogador assimétrico sobre uma guerra cibernética entre um hacker e o governo.&lt;/p&gt;
 &lt;p&gt;A jam tinha 4 temas tinha os quatro temas abaixo, dos quais os grupos tinham que escolher dois.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

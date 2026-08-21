@@ -17,21 +17,19 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 
-<link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/layouts/main.css"/>
-<link rel="stylesheet" href="/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/css/plyr.css"/>
-<link rel="stylesheet" href="/css/flag-icon.min.css"/>
 
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+<link rel="canonical" href="/br/" />
 
 
-<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+<link rel="stylesheet" href="/application.65b132c667830ef4bacc603ab41bf02c06fee917e431d9990b77bcdbc5150f6a.css" integrity="sha256-ZbEyxmeDDvS6zGA6tBvwLAb&#43;6RfkMdmZC3e828UVD2o=" />
 
 
 
 
+
+
+<link rel="alternate" type="application/rss+xml" href="/br/index.xml" title="João's site">
 
 
 
@@ -39,34 +37,37 @@
 
 
 
-<meta property="og:title" content="João&#39;s site"/>
-<meta property="og:type" content="website"/>
-<meta property="og:description" content="João Gabriel Basi&#39;s personal site"/>
-<meta property="og:image" content="/images/me.jpg">
-<meta property="og:url" content="/br/">
+<meta property="og:title" content="João&#39;s site" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="João Gabriel Basi&#39;s personal site" />
+    <meta property="og:image" content="/images/me.jpg">
+  <meta property="og:url" content="/br/">
 
-    <link rel="stylesheet" href="/css/sections/home.css"/>
-    <link rel="stylesheet" href="/css/sections/about.css"/>
-    <link rel="stylesheet" href="/css/sections/skills.css"/>
-    <link rel="stylesheet" href="/css/sections/experiences.css"/>
-    <link rel="stylesheet" href="/css/sections/education.css"/>
-    <link rel="stylesheet" href="/css/sections/projects.css"/>
-    <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
-    <link rel="stylesheet" href="/css/sections/achievements.css"/>
-    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
 
     
-    <link rel="stylesheet" href="/css/style.css"/>
-    
-    
 
 
 
-
-</head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
-
-    
 
 
 
@@ -91,6 +92,15 @@
 
 
 
+
+
+
+
+  
+
+
+
+
   
 
 
@@ -99,23 +109,29 @@
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
   <div class="container">
+    
     <a class="navbar-brand" href="/br/">
       João&#39;s site</a>
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
       aria-label="menu"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i data-feather="menu"></i>
     </button>
 
-    <div class="collapse navbar-collapse" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -164,7 +180,7 @@
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -201,7 +217,7 @@
           
         
         
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
+          <div id="top-navbar-divider"></div>
         
         
           <li class="nav-item">
@@ -217,29 +233,43 @@
             
         
         
-          <li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+
+  
+  
     
-    <span class="flag-icon flag-icon-br"></span>
-    Português
-</a>
-<div class="dropdown-menu" aria-labelledby="languageSelector">
-    
-    <a class="dropdown-item nav-link languages-item" href="/">
+  
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         
-        <span class="flag-icon flag-icon-gb"></span>
-        English
-    </a>
-    
-    <a class="dropdown-item nav-link languages-item" href="/br/">
+            
+            <span class="fi fi-br"></span>
         
-        <span class="flag-icon flag-icon-br"></span>
         Português
     </a>
-    
-</div>
-</li>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/">
+            
+                
+                <span class="fi fi-gb"></span>
+            
+            English
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/br">
+            
+                
+                <span class="fi fi-br"></span>
+            
+            Português
+        </a>
+        
+    </div>
+    </li>
 
+        
         
       </ul>
     </div>
@@ -247,37 +277,61 @@
   
   
   
+  
 </nav>
 
 
-  
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-  
 
 
 
 
 
-  
 
 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -311,62 +365,108 @@
   <style>
      
     #homePageBackgroundImageDivStyled {
-        
       background-image: url('/images/stars_hu_4aaad118a1dc74fd.jpg');
     }
+
      
-    @media (min-width: 500px) and (max-width: 800px) {  
-      #homePageBackgroundImageDivStyled {   
+    @media (min-width: 500px) and (max-width: 800px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/stars_hu_a0d2e5043bef3314.jpg');
+      }
+    }
+
+    @media (min-width: 801px) and (max-width: 1200px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/stars_hu_c87a97f2345de8c0.jpg');
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1500px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/stars_hu_e51e3ede62317d63.jpg');
+      }
+    }
+
+    @media (min-width: 1501px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/stars.jpg');
+      }
+    }
+
+    html[data-theme='dark'] {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/stars_hu_4aaad118a1dc74fd.jpg');
+      }
+
+       
+      @media (min-width: 500px) and (max-width: 800px) {
+
+         
+        #homePageBackgroundImageDivStyled {
           background-image: url('/images/stars_hu_a0d2e5043bef3314.jpg');
         }
-    }
-    @media (min-width: 801px) and (max-width: 1200px) {  
-      #homePageBackgroundImageDivStyled {   
+      }
+
+      @media (min-width: 801px) and (max-width: 1200px) {
+
+         
+        #homePageBackgroundImageDivStyled {
           background-image: url('/images/stars_hu_c87a97f2345de8c0.jpg');
         }
-    }
-    @media (min-width: 1201px) and (max-width: 1500px) {  
-      #homePageBackgroundImageDivStyled {   
+      }
+
+      @media (min-width: 1201px) and (max-width: 1500px) {
+
+         
+        #homePageBackgroundImageDivStyled {
           background-image: url('/images/stars_hu_e51e3ede62317d63.jpg');
         }
-    }
-    @media (min-width: 1501px) {  
-      #homePageBackgroundImageDivStyled {   
+      }
+
+      @media (min-width: 1501px) {
+
+         
+        #homePageBackgroundImageDivStyled {
           background-image: url('/images/stars.jpg');
         }
+      }
     }
-    </style>
-    <span class="on-the-fly-behavior"></span>
-  <div
-    id="homePageBackgroundImageDivStyled"
-    class="background container-fluid"
-  ></div>
+  </style>
+  <span class="on-the-fly-behavior"></span>
+  <div id="homePageBackgroundImageDivStyled" class="background container-fluid"></div>
   <div class="container content text-center">
-    <img src="/images/me_hu_c27f9b16def26606.jpg"
-      class="rounded-circle mx-auto d-block img-fluid"
-      alt="Author Image"
-    />
+    <img src="/images/me_hu_c27f9b16def26606.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Author Image" />
     <h1 class="greeting"> Olá, eu sou João</h1>
     
     <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
+      <span id="typed" class="typed"></span>
       <span class="ityped-cursor"></span>
     </div>
     <ul id="typing-carousel-data">
       
     </ul>
     
-      
-        
-        
-          
-        
-        <a href="#about" aria-label="Read More - João"><i class="arrow bounce fa fa-chevron-down"></i></a>
-      
+    
+    
+    
+    
+    
+    <a href="#about" class="arrow-center" aria-label="Read More - João"> <i
+        class="arrow bounce fa fa-chevron-down"></i></a>
+    
     
   </div>
 </div>
-
     
     
       
@@ -376,7 +476,7 @@
       
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -404,7 +504,7 @@
       <p class="p-1 text-justify">
         Programador, com 9 anos de experiência no desenvolvimento de jogos, principalmente em jogos free-to-play mobile. Sempre foco em criar código que é fácil de ler e manter, e em criar ferramentas que podem ajudar em processos repetitivos. Trabalhei com times multidisciplinares em vários projetos usando metodologias ágeis. Sou mente aberta, gosto de ajudar a resolver problemas, e sempre estou disposto à aprender coisas novas.
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container ms-auto">
         <ul class="social-link d-flex">
           
           <li>
@@ -428,9 +528,10 @@
         </ul>
       </div>
       
+      
     </div>
     
-    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
       <div class="row">
         
         
@@ -449,22 +550,26 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
 
 
-<div class="container-fluid anchor pb-5 skills-section">
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
   
     <h1 class="text-center">
         <span id="skills"></span>Skills</h1>
   
+  
   <div class="container d-flex-block">
     <div class="row" id="primary-skills">
+  
       
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -472,16 +577,18 @@
           <h5 class="card-title"><span class="fas fa-gamepad"> Engines</span></h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Unity e Godot</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -489,16 +596,18 @@
           <h5 class="card-title"><span class="fas fa-tools"> Ferramentas</span></h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Git, Firebase e Claude</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -506,16 +615,18 @@
           <h5 class="card-title"><span class="fas fa-briefcase"> Softwares Empresariais</span></h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Google Workspace, Atlassian suite, ClickUp, Miro e Slack</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -523,16 +634,18 @@
           <h5 class="card-title"><span class="fas fa-code"> Linguagens de Programação</span></h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">C#, Python, Javascript, AppsScript, Lua e SQL, além de projetos pequenos em Java, C, C++ e Ruby</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -540,14 +653,14 @@
           <h5 class="card-title"><span class="fas fa-language"> Idiomas</span></h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Português (Nativo) e Inglês (Fluente)</p>
       </div>
     </div>
   </a>
 </div>
 
-      
+    
     </div>
   </div>
 </div>
@@ -560,7 +673,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -578,21 +691,25 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">1</div>
+  <div class="circle fw-bold">1</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
-        <h5><a href=https://tappsgames.com/pt-br/ title="Tapps Games" target="_blank" rel="noopener">Tapps Games</a></h5>
-
         
         
         
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://tappsgames.com/pt-br/ title="Tapps Games" target="_blank" rel="noopener">Tapps Games</a></h5>
+            <p class="text-muted">
+                Mai 2022 - Jul 2020
+            </p>
+        </div>
         <p class="text-muted">
-            Mai 2022 - Jul 2020,
-            São Paulo, SP, Brasil
+            <i class="fa-solid fa-location-dot"></i> São Paulo, SP, Brasil
         </p>
         
         <p>Tapps Games é um estúdio que desenvolve jogos mobile free-to-play casuais, com mais de 400 títulos lançados e mais de 1 bilhão de downloads globais.</p>
@@ -600,51 +717,64 @@
     
     <div class="positions">
     
-        <h6 class="designation">Programador de Jogos Estagiário</h6>
-        <p class="text-muted">Ago 2018 -  Jul 2020 </p>
+        <div class="company-heading">
+            <h5 class="designation">Programador de Jogos Estagiário</h5>
+            <p class="text-muted">Ago 2018 -  Jul 2020 </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Desenvolver conteúdo novo para os jogos usando a engine interna da empresa (baseada em Lua)</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Desenvolver conteúdo novo para os jogos usando a engine interna da empresa (baseada em Lua)</li>
+                
+                    <li>Desenvolver ferramentas para automatizar processos de outras áreas</li>
+                
+                    <li>Revisar o código de outros programadores</li>
+                
+            </ul>
         
-            <li>Desenvolver ferramentas para automatizar processos de outras áreas</li>
-        
-            <li>Revisar o código de outros programadores</li>
-        
-        </ul>
     
-        <h6 class="designation">Programador de Jogos Júnior</h6>
-        <p class="text-muted">Ago 2020 -  Mai 2022 </p>
+        <div class="company-heading">
+            <h5 class="designation">Programador de Jogos Júnior</h5>
+            <p class="text-muted">Ago 2020 -  Mai 2022 </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Desenvolver conteúdo novo para os jogos usando a engine interna da empresa (baseada em Lua) e também Unity3D</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Desenvolver conteúdo novo para os jogos usando a engine interna da empresa (baseada em Lua) e também Unity3D</li>
+                
+                    <li>Desenvolver ferramentas para automatizar processos</li>
+                
+                    <li>Revisar o código de outros programadores</li>
+                
+            </ul>
         
-            <li>Desenvolver ferramentas para automatizar processos</li>
-        
-            <li>Revisar o código de outros programadores</li>
-        
-        </ul>
     
-        <h6 class="designation">Programador de Jogos Pleno</h6>
-        <p class="text-muted">Mai 2022 -  Present </p>
+        <div class="company-heading">
+            <h5 class="designation">Programador de Jogos Pleno</h5>
+            <p class="text-muted">Mai 2022 -  Present </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Desenvolver conteúdo novo para os jogos usando Unity3D</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Desenvolver conteúdo novo para os jogos usando Unity3D</li>
+                
+                    <li>Desenvolver ferramentas para automatizar processos</li>
+                
+                    <li>Revisar o código de outros programadores</li>
+                
+                    <li>Mentorar colegas de nível júnior</li>
+                
+            </ul>
         
-            <li>Desenvolver ferramentas para automatizar processos</li>
-        
-            <li>Revisar o código de outros programadores</li>
-        
-            <li>Mentorar colegas de nível júnior</li>
-        
-        </ul>
     
     </div>
 </div>
-
-
 
        </div>
      
@@ -661,7 +791,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
 
@@ -673,13 +803,14 @@
         <span id="education"></span>Educação</h1>
   
 
-    <div class="container">
-        <table class="education-info-table">
-            <tbody>
-                
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
                         <div class="icon-holder">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
@@ -689,6 +820,11 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -703,13 +839,14 @@
                             
                             
                             <div class="extracurricular-activities">
-                                <h6 class="text-muted">Extracurricular Activities</h6>
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
-                                    <li>USPGameDev (https://usp.game.dev.br/)</li>
+                                    <li>USPGameDev (<a href="https://usp.game.dev.br/" target="_blank" rel="noopener">https://usp.game.dev.br/</a>)</li>
                                 
                                 </ul>
                             </div>
+                            
                             
                         </div>
                     </td>
@@ -728,7 +865,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -739,29 +876,29 @@
     <h1 class="text-center">
         <span id="projects"></span>Projetos</h1>
   
-  <div class="container ml-auto text-center">
-    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons-projects">
       
-      <button type="button" class="btn btn-dark" data-filter="all">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="all" data-section="projects">
         Todos
       </button>
       
-      <button type="button" class="btn btn-dark" data-filter="profissional">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="profissional" data-section="projects">
         Profissional
       </button>
       
-      <button type="button" class="btn btn-dark" data-filter="acadêmico">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="acadêmico" data-section="projects">
         Acadêmico
       </button>
       
-      <button type="button" class="btn btn-dark" data-filter="hobby">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="hobby" data-section="projects">
         Hobby
       </button>
       
     </div>
   </div>
-  <div class="container filtr-projects">
-    <div class="row" id="project-card-holder">
+  <div class="container filtr-projects" data-section="projects">
+    <div class="row" id="project-card-holder-projects">
       
     </div>
   </div>
@@ -775,7 +912,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -788,7 +925,7 @@
   
   
   <div class="container">
-    <div class="row" id="acomplishment-card-holder">
+    <div class="row" id="accomplishment-card-holder">
       
         <div class="col-md-12 col-lg-6 p-2">
   <div class="card mt-3">
@@ -796,7 +933,7 @@
       <h5 class="card-title mb-0">UX Design for Beginners - The Real Essentials of UX Design</h5>
       <div class="sub-title">
         <span><a href="https://www.udemy.com" title="Udemy" target="_blank" rel="noopener">Udemy</a></span>
-        <span class="ml-2"></span>
+        <span class="ms-2"></span>
       </div>
     </div>
     <div class="card-body">
@@ -804,7 +941,7 @@
     </div>
     <div class="card-footer">
       
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="https://example.com" target="_blank" rel="noopener" role="button">View Certificate</a>
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://example.com" target="_blank" rel="noopener" role="button">View Certificate</a>
       
     </div>
   </div>
@@ -885,7 +1022,7 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
@@ -974,15 +1111,15 @@
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu_be7279b2506ad3f1.png" alt="Toha Theme Logo">
             Toha
           </a>
         </div>
         <div class="col-md-4 text-center">© 2026 Copyright.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
@@ -997,20 +1134,8 @@
   </footer>
 
 
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/popper.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script src="/application.26251380e8f3062c190e6fd80b034da4dc132c7f44f29e8f8d5442ddc995f199.js" integrity="sha256-JiUTgOjzBiwZDm/YCwNNpNwTLH9E8p6PjVRC3cmV8Zk=" defer></script>
 
-<script type="text/javascript" src="/js/navbar.js"></script>
-<script type="text/javascript" src="/js/plyr.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-
-
-    
-    <script src="/js/itype.min.js"></script>
-    <script src="/js/github-button.js"></script>
-    <script src="/js/home.js"></script>
-    <script src="/js/jquery.filterizr.min.js"></script>
 
     
 </body>

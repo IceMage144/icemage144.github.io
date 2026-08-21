@@ -6,7 +6,8 @@
     <description>Recent content in Derivative on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Nov 2016 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/derivative/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 15 Nov 2016 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/derivative/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Derivative Calculator</title>
       <link>http://localhost:1313/works/apps/derivative-calculator/</link>
       <pubDate>Tue, 15 Nov 2016 00:00:00 -0300</pubDate>
@@ -34,7 +35,6 @@
 &lt;/script&gt;
 &lt;p id=&#34;result&#34; class=&#34;output&#34;&gt;..........&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

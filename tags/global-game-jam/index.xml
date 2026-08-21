@@ -6,13 +6,14 @@
     <description>Recent content in Global Game Jam on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/global-game-jam/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/global-game-jam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Global Game Jam 2020</title>
       <link>http://localhost:1313/works/game-jams/global-game-jam-2020/</link>
       <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/global-game-jam-2020/</guid>
-      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups. The theme was &amp;ldquo;Repair&amp;rdquo;. My group created &amp;ldquo;Keeping It Up&amp;rdquo;, a game about keeping your constructions up while you defend the city against evil aliens.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; into two groups. The theme was &amp;ldquo;Repair&amp;rdquo;. My group created &amp;ldquo;Keeping It Up&amp;rdquo;, a game about keeping your constructions up while you defend the city against evil aliens.&lt;/p&gt;
 &lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2 days&lt;/li&gt;
@@ -27,8 +28,8 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -38,11 +39,10 @@
       <pubDate>Fri, 25 Jan 2019 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/global-game-jam-2019/</guid>
-      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; into two groups.&lt;/p&gt;
 &lt;p&gt;My group created &amp;ldquo;Mother&amp;rsquo;s home&amp;rdquo;, a game where you are a little creative kid that adventures through an imaginary maze in his house to play with his toys, but don&amp;rsquo;t want to get far from his mom.&lt;/p&gt;
 &lt;p&gt;The theme was &amp;ldquo;What home means to you?&amp;rdquo;, and the game explores how the house feels like an unknown place to the kid, as his mother is his real home.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

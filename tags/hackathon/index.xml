@@ -6,7 +6,8 @@
     <description>Recent content in Hackathon on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/hackathon/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Hackathon USP 2017</title>
       <link>http://localhost:1313/works/hackathons/smart-cities/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 -0300</pubDate>
@@ -20,10 +21,9 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/IceMage144/Stuffz&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/IceMage144/Stuffz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

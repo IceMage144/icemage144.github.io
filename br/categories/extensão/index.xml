@@ -6,7 +6,8 @@
     <description>Recent content in Extensão on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
-    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/extens%C3%A3o/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/extens%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Pirate Ship Battles</title>
       <link>http://localhost:1313/br/works/games/pirate-ship-battles/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 -0300</pubDate>
@@ -24,7 +25,6 @@
       <guid>http://localhost:1313/br/works/games/deviant/</guid>
       <description>&lt;p&gt;Uma visual novel que acontece em um futuro distópico onde monopólios controlam o mundo.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

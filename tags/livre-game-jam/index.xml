@@ -6,13 +6,14 @@
     <description>Recent content in Livre Game Jam on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/livre-game-jam/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/livre-game-jam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Livre Game Jam 2018</title>
       <link>http://localhost:1313/works/game-jams/livre-game-jam-2018/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/livre-game-jam-2018/</guid>
-      <description>&lt;p&gt;In this jam we made &amp;ldquo;Shin Ara Loop&amp;rdquo;, a game where the main character is stuck in a time loop, in a way that she goes back to its start when she sleeps (like what happens at &lt;a href=&#34;https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29&#34;&gt;&amp;ldquo;Groundhog Day&amp;rdquo;&lt;/a&gt;. To make sure this doesn&amp;rsquo;t happen anymore, you heve to help her to fix the the church&amp;rsquo;s clock.&lt;/p&gt;
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Shin Ara Loop&amp;rdquo;, a game where the main character is stuck in a time loop, in a way that she goes back to its start when she sleeps (like what happens at &lt;a href=&#34;https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Groundhog Day&amp;rdquo;&lt;/a&gt;. To make sure this doesn&amp;rsquo;t happen anymore, you heve to help her to fix the the church&amp;rsquo;s clock.&lt;/p&gt;
 &lt;p&gt;The theme was &amp;ldquo;Finally, now i&amp;rsquo;m truly free&amp;rdquo;, and the jam also had some achievements (like optional sub-themes), and we acomplished two of them:&lt;/p&gt;</description>
     </item>
     
@@ -22,7 +23,7 @@
       <pubDate>Sat, 21 Oct 2017 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/livre-game-jam-2017/</guid>
-      <description>&lt;p&gt;A 48-hour game jam organized by &lt;a href=&#34;https://www.livrecamp.org/&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34;&gt;Gamux&lt;/a&gt; and &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34;&gt;Fellowship of the game&lt;/a&gt; to promote the use of free software. Our team from &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; went to UNICAMP to participate.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour game jam organized by &lt;a href=&#34;https://www.livrecamp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gamux&lt;/a&gt; and &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fellowship of the game&lt;/a&gt; to promote the use of free software. Our team from &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; went to UNICAMP to participate.&lt;/p&gt;
 &lt;p&gt;We made the game &amp;ldquo;Network Battle: Chain Hostility&amp;rdquo;, an assimetric multiplayer game about a cyberwar between a hacker and the government.&lt;/p&gt;
 &lt;p&gt;The jam had the 4 themes listed below, from which the the groups had to choose two.&lt;/p&gt;
 &lt;ul&gt;
@@ -33,7 +34,6 @@
 &lt;/ul&gt;
 &lt;p&gt;It also had 9 achievements, from which our group won two of them&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

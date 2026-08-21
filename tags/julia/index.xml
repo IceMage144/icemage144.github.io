@@ -6,7 +6,8 @@
     <description>Recent content in Julia on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/julia/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/julia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Julia Set Visualizer</title>
       <link>http://localhost:1313/works/apps/julia-set/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 -0300</pubDate>
@@ -14,7 +15,6 @@
       <guid>http://localhost:1313/works/apps/julia-set/</guid>
       <description>&lt;p&gt;This app generates pictures of the Julia sets.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

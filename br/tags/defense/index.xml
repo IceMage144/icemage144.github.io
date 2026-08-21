@@ -6,7 +6,8 @@
     <description>Recent content in Defense on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
-    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/defense/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/tags/defense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Slime Defense</title>
       <link>http://localhost:1313/br/works/games/slime-defense/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 -0300</pubDate>
@@ -23,7 +24,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/Eduwzin/slime-defense&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -35,7 +36,6 @@
       <guid>http://localhost:1313/br/works/games/tower-defense/</guid>
       <description>&lt;p&gt;Um simples jogo de defender a torre, onde vocêtem que construir torres com canhões para previnir que os monstros passem por todo o caminho.&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

@@ -6,7 +6,8 @@
     <description>Recent content in Pessoal on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
-    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/pessoal/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/br/categories/pessoal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Visualizador de conjuntos de Julia</title>
       <link>http://localhost:1313/br/works/apps/julia-set/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 -0300</pubDate>
@@ -79,7 +80,6 @@
 &lt;/script&gt;
 &lt;p id=&#34;result&#34; class=&#34;output&#34;&gt;..........&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>

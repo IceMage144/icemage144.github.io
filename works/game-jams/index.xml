@@ -6,13 +6,14 @@
     <description>Recent content in Game Jams on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/works/game-jams/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/works/game-jams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Global Game Jam 2020</title>
       <link>http://localhost:1313/works/game-jams/global-game-jam-2020/</link>
       <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/global-game-jam-2020/</guid>
-      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups. The theme was &amp;ldquo;Repair&amp;rdquo;. My group created &amp;ldquo;Keeping It Up&amp;rdquo;, a game about keeping your constructions up while you defend the city against evil aliens.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; into two groups. The theme was &amp;ldquo;Repair&amp;rdquo;. My group created &amp;ldquo;Keeping It Up&amp;rdquo;, a game about keeping your constructions up while you defend the city against evil aliens.&lt;/p&gt;
 &lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2 days&lt;/li&gt;
@@ -27,8 +28,8 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -47,7 +48,7 @@
       <pubDate>Fri, 25 Jan 2019 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/global-game-jam-2019/</guid>
-      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; into two groups.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour gobal game jam. &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hosted a site&lt;/a&gt; and we divided &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; into two groups.&lt;/p&gt;
 &lt;p&gt;My group created &amp;ldquo;Mother&amp;rsquo;s home&amp;rdquo;, a game where you are a little creative kid that adventures through an imaginary maze in his house to play with his toys, but don&amp;rsquo;t want to get far from his mom.&lt;/p&gt;
 &lt;p&gt;The theme was &amp;ldquo;What home means to you?&amp;rdquo;, and the game explores how the house feels like an unknown place to the kid, as his mother is his real home.&lt;/p&gt;</description>
     </item>
@@ -68,7 +69,7 @@
       <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/livre-game-jam-2018/</guid>
-      <description>&lt;p&gt;In this jam we made &amp;ldquo;Shin Ara Loop&amp;rdquo;, a game where the main character is stuck in a time loop, in a way that she goes back to its start when she sleeps (like what happens at &lt;a href=&#34;https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29&#34;&gt;&amp;ldquo;Groundhog Day&amp;rdquo;&lt;/a&gt;. To make sure this doesn&amp;rsquo;t happen anymore, you heve to help her to fix the the church&amp;rsquo;s clock.&lt;/p&gt;
+      <description>&lt;p&gt;In this jam we made &amp;ldquo;Shin Ara Loop&amp;rdquo;, a game where the main character is stuck in a time loop, in a way that she goes back to its start when she sleeps (like what happens at &lt;a href=&#34;https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Groundhog Day&amp;rdquo;&lt;/a&gt;. To make sure this doesn&amp;rsquo;t happen anymore, you heve to help her to fix the the church&amp;rsquo;s clock.&lt;/p&gt;
 &lt;p&gt;The theme was &amp;ldquo;Finally, now i&amp;rsquo;m truly free&amp;rdquo;, and the jam also had some achievements (like optional sub-themes), and we acomplished two of them:&lt;/p&gt;</description>
     </item>
     
@@ -88,15 +89,15 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;project&#34;&gt;Project&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; (17 people)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; (17 people)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;My role&lt;/strong&gt;: Programmer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uspgamedev.itch.io/its-all-about-lasagna&#34;&gt;Play it&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/uspgamedev/lasagna&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/its-all-about-lasagna&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uspgamedev.itch.io/its-all-about-lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uspgamedev/lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/its-all-about-lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Entry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -116,7 +117,7 @@
       <pubDate>Sat, 21 Oct 2017 00:00:00 -0300</pubDate>
       
       <guid>http://localhost:1313/works/game-jams/livre-game-jam-2017/</guid>
-      <description>&lt;p&gt;A 48-hour game jam organized by &lt;a href=&#34;https://www.livrecamp.org/&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34;&gt;Gamux&lt;/a&gt; and &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34;&gt;Fellowship of the game&lt;/a&gt; to promote the use of free software. Our team from &lt;a href=&#34;https://uspgamedev.org/&#34;&gt;USPGameDev&lt;/a&gt; went to UNICAMP to participate.&lt;/p&gt;
+      <description>&lt;p&gt;A 48-hour game jam organized by &lt;a href=&#34;https://www.livrecamp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gamux&lt;/a&gt; and &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fellowship of the game&lt;/a&gt; to promote the use of free software. Our team from &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; went to UNICAMP to participate.&lt;/p&gt;
 &lt;p&gt;We made the game &amp;ldquo;Network Battle: Chain Hostility&amp;rdquo;, an assimetric multiplayer game about a cyberwar between a hacker and the government.&lt;/p&gt;
 &lt;p&gt;The jam had the 4 themes listed below, from which the the groups had to choose two.&lt;/p&gt;
 &lt;ul&gt;
@@ -127,7 +128,6 @@
 &lt;/ul&gt;
 &lt;p&gt;It also had 9 achievements, from which our group won two of them&lt;/p&gt;</description>
     </item>
-    
     
   </channel>
 </rss>
