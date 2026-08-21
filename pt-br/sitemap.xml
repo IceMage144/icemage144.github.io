@@ -66,6 +66,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/works/games/tower-defense/" />
   </url>
   <url>
+    <loc>http://localhost:1313/pt-br/works/hackathons/smart-cities/</loc>
+    <lastmod>2017-11-12T00:00:00-03:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/works/hackathons/smart-cities/" />
+  </url>
+  <url>
     <loc>http://localhost:1313/pt-br/works/game-jams/livre-game-jam-2017/</loc>
     <lastmod>2017-10-21T00:00:00-03:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/works/game-jams/livre-game-jam-2017/" />

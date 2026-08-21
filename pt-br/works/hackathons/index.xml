@@ -5,6 +5,25 @@
     <link>http://localhost:1313/pt-br/works/hackathons/</link>
     <description>Recent content in Hackathons on João&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="http://localhost:1313/pt-br/works/hackathons/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/pt-br/works/hackathons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hackathon USP 2017</title>
+      <link>http://localhost:1313/pt-br/works/hackathons/smart-cities/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/hackathons/smart-cities/</guid>
+      <description>&lt;p&gt;Um Hackathon de 24h com o tema &amp;ldquo;Smart Cities&amp;rdquo; organizado pelo grupo de extensão USPCodeLab da USP. Eu participei junto do meu amigo Raphael Gusmão. Nós desenvolvemos o projeto &amp;ldquo;Stuffz&amp;rdquo;, um app de delivery que entrega qualquer coisa que você quiser. O projeto ganhou honra ao mérito por melhor design.&lt;/p&gt;
+&lt;h4 id=&#34;projeto&#34;&gt;Projeto&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Framework&lt;/strong&gt;: Django (Python)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minha função&lt;/strong&gt;: Desenvolvedor Back-end&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/IceMage144/Stuffz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
   </channel>
 </rss>
