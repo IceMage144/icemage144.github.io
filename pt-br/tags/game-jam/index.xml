@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Jam on João&#39;s site</title>
+    <link>http://localhost:1313/pt-br/tags/game-jam/</link>
+    <description>Recent content in Game Jam on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/game-jam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Game Jam 2020</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/global-game-jam-2020/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/global-game-jam-2020/</guid>
+      <description>&lt;p&gt;Uma game jam de 48 horas. O &lt;a href=&#34;https://globalgamejam.org/2020/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hospedou uma sede&lt;/a&gt; da GGJ e nós dividimos o &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; em dois grupos.&lt;/p&gt;
+&lt;p&gt;Meu grupo criou o &amp;ldquo;Keeping It Up&amp;rdquo; (em português, &amp;ldquo;Mantendo de pé&amp;rdquo;), um jogo sobre manter suas construções de pé enquanto você defende a cidade de aliens malvados. O tema foi &amp;ldquo;Repair&amp;rdquo; (em português, &amp;ldquo;Consertar&amp;rdquo;).&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 2 dias&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modelo&lt;/strong&gt;: Presencial&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;projeto&#34;&gt;Projeto&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: 4 pessoas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minha função&lt;/strong&gt;: Designer Gráfico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MLaurentys/GGJ2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://globalgamejam.org/2020/games/keeping-it-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submissão&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 44</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/ludum-dare-44/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/ludum-dare-44/</guid>
+      <description>&lt;p&gt;Nessa jam nós fizemos &amp;ldquo;Sinner&amp;rdquo;, e o tema foi &amp;ldquo;Sua vida é dinheiro&amp;rdquo; (&amp;ldquo;Your life is currency&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2019</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/global-game-jam-2019/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/global-game-jam-2019/</guid>
+      <description>&lt;p&gt;Uma game jam de 48 horas. O &lt;a href=&#34;https://globalgamejam.org/2019/jam-sites/usp-ggj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IME hospedou uma sede&lt;/a&gt; da GGJ e nós dividimos o &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; em dois grupos.&lt;/p&gt;
+&lt;p&gt;Meu grupo criou o &amp;ldquo;Mother&amp;rsquo;s home&amp;rdquo; (pode ser lido como &amp;ldquo;Lar da mãe&amp;rdquo; ou &amp;ldquo;Mãe é o lar&amp;rdquo;), um jogo onde você é uma pequena criança criativa que se aventura por um labirinto imaginário na sua casa para brincar com seus brinquedos, mas não quer ficar muito longe de sua mãe.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 43</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/ludum-dare-43/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/ludum-dare-43/</guid>
+      <description>&lt;p&gt;Nessa jam nós fizemos o &amp;ldquo;Mechamorphosis&amp;rdquo;, um jogo onde você é um robô enferrujado que capturado por uma organização maligna que quer transformar você e todos os seus amigos em lixo mecânico. O objetivo é conseguir partes novas, derrotar todos os guardas robôs e escapar da construção.&lt;/p&gt;
+&lt;p&gt;O tema foi &amp;ldquo;Sacrifícios têm que ser feitos&amp;rdquo; (&amp;ldquo;Sacrifices must be made&amp;rdquo;), nós criamos uma mecânica onde você tem que sacrificar uma parte para pegar outras e para passar para a próxima sala. Algumas partes te dão vantagens e outras te dão desvantagens, e você tem que lidar com elas ao longo do jogo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Livre Game Jam 2018</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/livre-game-jam-2018/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/livre-game-jam-2018/</guid>
+      <description>&lt;p&gt;Nessa jam nós fizemos o &amp;ldquo;Shin Ara Loop&amp;rdquo;, um jogo onde a protagonista fica presa em um loop temporal, de forma que toda vez que ela dorme ela volta para o começo do dia (como acontece no filme &lt;a href=&#34;https://pt.wikipedia.org/wiki/Groundhog_Day&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Feitiço do Tempo&amp;rdquo;&lt;/a&gt;) e, para fazer com que isso não aconteça mais, você tem que guiá-la para consertar o relógio da igreja da cidade.&lt;/p&gt;
+&lt;p&gt;O tema foi &amp;ldquo;Finalmente, agora sim estou livre&amp;rdquo;, e a jam também tinha alguns achievements (como se fossem sub-temas opcionais), e nós completamos dois deles:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 41</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/ludum-dare-41/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/ludum-dare-41/</guid>
+      <description>&lt;p&gt;Nós fizemos &amp;ldquo;It&amp;rsquo;s all about lasagna!&amp;rdquo;, um jogo de fazenda com clima de terror, onde uma criança vai para a casa da sua avó e decide fazer uma lasagna enquanto ela não chega.&lt;/p&gt;
+&lt;p&gt;O tema foi &amp;ldquo;Combine dois gêneros incompatíveis&amp;rdquo; (&amp;ldquo;Combine two incompatible genres&amp;rdquo;), e nós combinamos a vida pacífica e inofensiva da fazenda com o clima de um filme de terror.&lt;/p&gt;
+&lt;h4 id=&#34;jam&#34;&gt;Jam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 3 dias&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modelo&lt;/strong&gt;: Online&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local&lt;/strong&gt;: IME - USP - São Paulo, SP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;projeto&#34;&gt;Projeto&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; (17 pessoas)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engine&lt;/strong&gt;: Godot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minha função&lt;/strong&gt;: Programador&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uspgamedev.itch.io/its-all-about-lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jogue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uspgamedev/lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repositório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ldjam.com/events/ludum-dare/41/its-all-about-lasagna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submissão&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 40</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/ludum-dare-40/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/ludum-dare-40/</guid>
+      <description>&lt;p&gt;Nós fizemos o &amp;ldquo;L.A.V.A. series L.A.M.P. edition vs the world&amp;rdquo;, um shooter cyberpunk, onde o objetivo é derrotar o máximo de ondas de inimigos que você conseguir, usando dezenas de armas diferentes.&lt;/p&gt;
+&lt;p&gt;O tema dessa edição foi &amp;ldquo;Quanto mais você tem, pior é&amp;rdquo; (&amp;ldquo;The more you have, the worse it is&amp;rdquo;). No jogo você ganha armas novas a cada onda, e tem que atribuir cada uma em uma tecla diferente do teclado. Com o passar do tempo começa a ficar difícil lembrar onde fica cada uma delas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Livre Game Jam 2017</title>
+      <link>http://localhost:1313/pt-br/works/game-jams/livre-game-jam-2017/</link>
+      <pubDate>Sat, 21 Oct 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/game-jams/livre-game-jam-2017/</guid>
+      <description>&lt;p&gt;Uma game jam de 48 horas organizada por &lt;a href=&#34;https://www.livrecamp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LivreCamp&lt;/a&gt;, &lt;a href=&#34;http://www.gamux.com.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gamux&lt;/a&gt; e &lt;a href=&#34;http://www.fog.icmc.usp.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fellowship of the game&lt;/a&gt; para promover o uso de software livre. Nossa equipe do &lt;a href=&#34;https://uspgamedev.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;USPGameDev&lt;/a&gt; foi à UNICAMP para participar.&lt;/p&gt;
+&lt;p&gt;Nós fizemos o jogo &amp;ldquo;Network Battle: Chain Hostility&amp;rdquo; (em português, &amp;ldquo;Batalha na rede: Hostilidade em cadeia&amp;rdquo;), um jogo multijogador assimétrico sobre uma guerra cibernética entre um hacker e o governo.&lt;/p&gt;
+&lt;p&gt;A jam tinha 4 temas tinha os quatro temas abaixo, dos quais os grupos tinham que escolher dois.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

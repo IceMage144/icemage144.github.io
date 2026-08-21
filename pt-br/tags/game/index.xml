@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on João&#39;s site</title>
+    <link>http://localhost:1313/pt-br/tags/game/</link>
+    <description>Recent content in Game on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 25 Nov 2017 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monster Invasion</title>
+      <link>http://localhost:1313/pt-br/works/games/tower-defense/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/games/tower-defense/</guid>
+      <description>&lt;p&gt;Um simples jogo de defender a torre, onde vocêtem que construir torres com canhões para previnir que os monstros passem por todo o caminho.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

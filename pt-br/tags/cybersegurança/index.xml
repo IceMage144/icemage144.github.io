@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersegurança on João&#39;s site</title>
+    <link>http://localhost:1313/pt-br/tags/cyberseguran%C3%A7a/</link>
+    <description>Recent content in Cybersegurança on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/cyberseguran%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deviant</title>
+      <link>http://localhost:1313/pt-br/works/games/deviant/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/games/deviant/</guid>
+      <description>&lt;p&gt;Uma visual novel que acontece em um futuro distópico onde monopólios controlam o mundo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
