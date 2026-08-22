@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Reinforcement Learning</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+
+
+<link rel="canonical" href="/tags/reinforcement-learning/" />
+
+
+<link rel="stylesheet" href="/application.47ad4418b67e943ddb225becc587feb14b1d4684e6e294a13b831bfa4b578d3a.css" integrity="sha256-R61EGLZ&#43;lD3bIlvsxYf&#43;sUsdRoTm4pShO4Mb&#43;ktXjTo=" />
+
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/tags/reinforcement-learning/index.xml" title="João's site">
+
+
+
+
+
+
+
+<meta property="og:title" content="João&#39;s site" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="João Gabriel Basi&#39;s personal site" />
+    <meta property="og:image" content="/images/me.jpg">
+  <meta property="og:url" content="/tags/reinforcement-learning/">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Reinforcement Learning">
+
+     
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-tags kind-term" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      João&#39;s site</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#accomplishments">Accomplishments</a>
+                </li>
+              
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="works">Works</a>
+              </li>
+            
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  
+  
+    
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/tags" data-filter="all">Tags</a></li>
+            <div class="subtree taxonomy-terms">
+              
+              
+
+
+
+  
+  
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/app/" data-taxonomy-term="app"><span class="taxonomy-label">App</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/battles/" data-taxonomy-term="battles"><span class="taxonomy-label">Battles</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/calculator/" data-taxonomy-term="calculator"><span class="taxonomy-label">Calculator</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/command/" data-taxonomy-term="command"><span class="taxonomy-label">Command</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/cybersecurity/" data-taxonomy-term="cybersecurity"><span class="taxonomy-label">Cybersecurity</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/defense/" data-taxonomy-term="defense"><span class="taxonomy-label">Defense</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/derivative/" data-taxonomy-term="derivative"><span class="taxonomy-label">Derivative</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/deviant/" data-taxonomy-term="deviant"><span class="taxonomy-label">Deviant</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/game/" data-taxonomy-term="game"><span class="taxonomy-label">Game</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/game-jam/" data-taxonomy-term="game-jam"><span class="taxonomy-label">Game Jam</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/ggj/" data-taxonomy-term="ggj"><span class="taxonomy-label">GGJ</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/global-game-jam/" data-taxonomy-term="global-game-jam"><span class="taxonomy-label">Global Game Jam</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/hackathon/" data-taxonomy-term="hackathon"><span class="taxonomy-label">Hackathon</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/hacker/" data-taxonomy-term="hacker"><span class="taxonomy-label">Hacker</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/itinerary/" data-taxonomy-term="itinerary"><span class="taxonomy-label">Itinerary</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/julia/" data-taxonomy-term="julia"><span class="taxonomy-label">Julia</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/livre-game-jam/" data-taxonomy-term="livre-game-jam"><span class="taxonomy-label">Livre Game Jam</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/ludum-dare/" data-taxonomy-term="ludum-dare"><span class="taxonomy-label">Ludum Dare</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/machine-learning/" data-taxonomy-term="machine-learning"><span class="taxonomy-label">Machine Learning</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/maze/" data-taxonomy-term="maze"><span class="taxonomy-label">Maze</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/missile/" data-taxonomy-term="missile"><span class="taxonomy-label">Missile</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/monster/" data-taxonomy-term="monster"><span class="taxonomy-label">Monster</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/multiplayer/" data-taxonomy-term="multiplayer"><span class="taxonomy-label">Multiplayer</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/novel/" data-taxonomy-term="novel"><span class="taxonomy-label">Novel</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/pirate/" data-taxonomy-term="pirate"><span class="taxonomy-label">Pirate</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term active" href="/tags/reinforcement-learning/" data-taxonomy-term="reinforcement-learning"><span class="taxonomy-label">Reinforcement Learning</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/rotalize/" data-taxonomy-term="rotalize"><span class="taxonomy-label">Rotalize</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/set/" data-taxonomy-term="set"><span class="taxonomy-label">Set</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/ship/" data-taxonomy-term="ship"><span class="taxonomy-label">Ship</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/slime/" data-taxonomy-term="slime"><span class="taxonomy-label">Slime</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/smart-city/" data-taxonomy-term="smart-city"><span class="taxonomy-label">Smart City</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/snake/" data-taxonomy-term="snake"><span class="taxonomy-label">Snake</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/stuffz/" data-taxonomy-term="stuffz"><span class="taxonomy-label">Stuffz</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/tetris/" data-taxonomy-term="tetris"><span class="taxonomy-label">Tetris</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/tower/" data-taxonomy-term="tower"><span class="taxonomy-label">Tower</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="/tags/visual/" data-taxonomy-term="visual"><span class="taxonomy-label">Visual</span></a></li>
+        
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+      
+        
+          <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/works/university/tcc/" class="post-card-link">
+        <a href="/works/university/tcc/" class="post-card-link">
+          
+          <img class="card-img-top" src='/works/university/tcc/tcc-cover_hu_24556f275992aa82.png'
+            alt="Hero Image" loading="lazy">
+        </a>
+    </div>
+    <div class="card-body">
+      <a href="/works/university/tcc/" class="post-card-link">
+        <h5 class="card-title">BSc Thesis</h5>
+        <p class="card-text post-summary">Creating a game with dynamic difficulty and reinforcement learning.
+Student: João Gabriel Basi Supervisor: Prof. Dr. Roberto Hirata Jr.
+Introduction Player versus environment (PvE) games, in contrast to player versus player (PvP) games, are games where the player fights several enemies controlled by artificial intelligences in order to fulfill the game&rsquo;s objectives. In this style, developers commonly model enemies as autonomous agents, since they make decisions without human intervention.
+The creation and balancing of agents occupies a good part of PvE game development, since a large portion of the game experience is provided by them. For the game to become interesting, it is desirable that the agents offer challenges easy enough so that the player does not get frustrated, hard enough so that they do not get bored, and that there are new challenges at each stage.
+</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      
+      
+      <span class="float-start">
+        Sunday, December 22, 2019
+         | 
+        8 minutes
+      </span>
+      <a href="/works/university/tcc/" class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#accomplishments">Accomplishments</a>
+                </li>
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="works">Works</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:jgabriel.basi@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>jgabriel.basi@gmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_be7279b2506ad3f1.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2026 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.cba6af7d603be40595f3ca32616c79183d8613ccb90604e0e55b3df4a465eb23.js" integrity="sha256-y6avfWA75AWV88oyYWx5GD2GE8y5BgTg5Vs99KRl6yM=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>

@@ -34,6 +34,20 @@
     </item>
     
     <item>
+      <title>BSc Thesis</title>
+      <link>http://localhost:1313/works/university/tcc/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/works/university/tcc/</guid>
+      <description>&lt;p&gt;Creating a game with dynamic difficulty and reinforcement learning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; João Gabriel Basi
+&lt;strong&gt;Supervisor:&lt;/strong&gt; Prof. Dr. Roberto Hirata Jr.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Player versus environment (PvE) games, in contrast to player versus player (PvP) games, are games where the player fights several enemies controlled by artificial intelligences in order to fulfill the game&amp;rsquo;s objectives. In this style, developers commonly model enemies as autonomous agents, since they make decisions without human intervention.&lt;/p&gt;
+&lt;p&gt;The creation and balancing of agents occupies a good part of PvE game development, since a large portion of the game experience is provided by them. For the game to become interesting, it is desirable that the agents offer challenges easy enough so that the player does not get frustrated, hard enough so that they do not get bored, and that there are new challenges at each stage.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Ludum Dare 44</title>
       <link>http://localhost:1313/works/game-jams/ludum-dare-44/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 -0300</pubDate>

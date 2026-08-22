@@ -6,6 +6,11 @@
     <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:1313/pt-br/works/game-jams/global-game-jam-2020/" />
   </url>
   <url>
+    <loc>http://localhost:1313/works/university/tcc/</loc>
+    <lastmod>2019-12-22T00:00:00-03:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:1313/pt-br/works/university/tcc/" />
+  </url>
+  <url>
     <loc>http://localhost:1313/works/game-jams/ludum-dare-44/</loc>
     <lastmod>2019-04-27T00:00:00-03:00</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-br" href="http://localhost:1313/pt-br/works/game-jams/ludum-dare-44/" />

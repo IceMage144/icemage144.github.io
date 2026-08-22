@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>BSc Thesis</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+
+
+<link rel="canonical" href="/works/university/tcc/" />
+
+
+<link rel="stylesheet" href="/application.47ad4418b67e943ddb225becc587feb14b1d4684e6e294a13b831bfa4b578d3a.css" integrity="sha256-R61EGLZ&#43;lD3bIlvsxYf&#43;sUsdRoTm4pShO4Mb&#43;ktXjTo=" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="BSc Thesis" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="An undergraduate thesis on creating a game with dynamic difficulty and reinforcement learning." />
+    <meta property="og:image" content="/images/me.jpg">
+  <meta property="og:url" content="/works/university/tcc/">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="/works/university/tcc/tcc-cover.png">
+	<meta name="twitter:title" content="BSc Thesis">
+	<meta name="twitter:description" content="An undergraduate thesis on creating a game with dynamic difficulty and reinforcement learning.">
+
+    
+<meta name="description" content="An undergraduate thesis on creating a game with dynamic difficulty and reinforcement learning." />
+
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-works kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      João&#39;s site</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#accomplishments">Accomplishments</a>
+                </li>
+              
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="works">Works</a>
+              </li>
+            
+        
+        
+          
+
+  
+  
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            
+            <span class="fi fi-gb"></span>
+        
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/works/university/tcc">
+            
+                
+                <span class="fi fi-gb"></span>
+            
+            English
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/pt-br/works/university/tcc">
+            
+                
+                <span class="fi fi-br"></span>
+            
+            Português
+        </a>
+        
+    </div>
+    </li>
+
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  
+</nav>
+
+
+
+      
+      
+<section class="sidebar-section" id="sidebar-section">
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <form class="mx-auto" method="get" action="/search">
+        <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+      </form>
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          
+          
+          <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+          <div class="subtree">
+            
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/works/game-jams/"> Game Jams</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/livre-game-jam-2017/" title="Livre Game Jam 2017">Livre Game Jam 2017</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/ludum-dare-40/" title="Ludum Dare 40">Ludum Dare 40</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/ludum-dare-41/" title="Ludum Dare 41">Ludum Dare 41</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/livre-game-jam-2018/" title="Livre Game Jam 2018">Livre Game Jam 2018</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/ludum-dare-43/" title="Ludum Dare 43">Ludum Dare 43</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/global-game-jam-2019/" title="Global Game Jam 2019">Global Game Jam 2019</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/ludum-dare-44/" title="Ludum Dare 44">Ludum Dare 44</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/game-jams/global-game-jam-2020/" title="Global Game Jam 2020">Global Game Jam 2020</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/works/games/"> Games</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/snake/" title="Snake">Snake</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/tetris/" title="Teris">Teris</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/maze/" title="Maze">Maze</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/missile-command/" title="Missile Command">Missile Command</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/tower-defense/" title="Monster Invasion">Monster Invasion</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/pirate-ship-battles/" title="Pirate Ship Battles">Pirate Ship Battles</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/slime-defense/" title="Slime Defense">Slime Defense</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/games/deviant/" title="Deviant">Deviant</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/works/apps/"> Apps</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/apps/derivative-calculator/" title="Derivative Calculator">Derivative Calculator</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/apps/julia-set/" title="Julia Set Visualizer">Julia Set Visualizer</a></li>
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/apps/rotalize/" title="Rotalize">Rotalize</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/works/hackathons/"> Hackathons</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/works/hackathons/smart-cities/" title="Hackathon USP 2017">Hackathon USP 2017</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/works/university/"> University</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    
+    <li><a class="active list-link" href="/works/university/tcc/" title="BSc Thesis">BSc Thesis</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      
+      <div class="hero-area col-sm-12" id="hero-area"
+        style='background-image: url(/works/university/tcc/tcc-cover_hu_b7f112f5ce62caaf.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/me_hu_ee6102a77b9fe50e.jpg' alt="Author Image">
+          <h5 class="author-name">João Gabriel Basi</h5>
+          <p class="text-muted">
+            Sunday, December 22, 2019
+             | 
+            8minutes</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>BSc Thesis</h1>
+        </div>
+
+        
+
+        
+        <div class="post-content" id="post-content">
+          <p>Creating a game with dynamic difficulty and reinforcement learning.</p>
+<p><strong>Student:</strong> João Gabriel Basi
+<strong>Supervisor:</strong> Prof. Dr. Roberto Hirata Jr.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Player versus environment (PvE) games, in contrast to player versus player (PvP) games, are games where the player fights several enemies controlled by artificial intelligences in order to fulfill the game&rsquo;s objectives. In this style, developers commonly model enemies as autonomous agents, since they make decisions without human intervention.</p>
+<p>The creation and balancing of agents occupies a good part of PvE game development, since a large portion of the game experience is provided by them. For the game to become interesting, it is desirable that the agents offer challenges easy enough so that the player does not get frustrated, hard enough so that they do not get bored, and that there are new challenges at each stage.</p>
+<h2 id="motivation">Motivation</h2>
+<p>Developing these agents can be a difficult and laborious task if traditional methods are used. It is necessary to consider all possible game situations and synthesize them into a complex algorithm. As a consequence, often either the game difficulty ends up above or below what was expected, or the algorithm ends up making decisions that were not foreseen during the development phase, making the player lose immersion in the game&rsquo;s world.</p>
+<p>Some authors cited in the work show through user experiments that games with dynamic difficulty are enjoyable to the player, however it is very hard to find games on the market that actually use such adaptation algorithms.</p>
+<h2 id="objectives">Objectives</h2>
+<p>This work aims to create a prototype of a PvE game for computers that can adapt its difficulty according to the player&rsquo;s progression and mastery, in addition to a system that eases the creation of AIs for the game. For this, the game will have a system that identifies the player&rsquo;s proficiency and adversary agents that can learn strategies through machine learning.</p>
+<p>Since learning algorithms generally require a lot of processing, it is also necessary to add the restriction that the game&rsquo;s processing must occur fast enough so that the reduction in frames per second is not noticeable, minimally impacting the player&rsquo;s experience.</p>
+<p>Furthermore, for the game to be as simple and portable as possible, it must not use information external to the program (such as the frames of the game window), data from physical sensors attached to the player, or information stored in the cloud.</p>
+<h2 id="documents">Documents</h2>
+<ul>
+<li><a href="/files/tcc/proposta.pdf">Proposal</a></li>
+<li><a href="/files/tcc/poster.pdf">Poster</a></li>
+<li><a href="/files/tcc/monografia.pdf">Monograph</a></li>
+</ul>
+<h2 id="game">Game</h2>
+<h3 id="story">Story</h3>
+<p>In a fantasy world there are people who risk their lives exploring unknown places, such as forests, caves and ruins; such people are called adventurers. During their adventures they find the most fearsome monsters and the most cunning traps, and also find the most valuable treasures, forgotten in time by ancient civilizations. Some adventurers are famous throughout the nation for being brave and fearless. The protagonist is a young man who dreams of becoming an adventurer, but has neither the skill nor the money for it.</p>
+<h3 id="how-to-play">How to play</h3>
+<p>Arrow keys or <kbd>WASD</kbd> move the character, <kbd>E</kbd> interacts with NPCs and objects, <kbd>SPACE</kbd> attacks, <kbd>I</kbd> opens the backpack and numbers <kbd>1</kbd> to <kbd>4</kbd> use items from the quick-use bar.</p>
+<p>The game is currently only available for Linux. Download and play the <a href="https://github.com/IceMage144/MAC0499/releases/tag/v0.1" target="_blank" rel="noopener">latest executable</a>.</p>
+<p>If it is not possible to run it, try one of the following solutions:</p>
+<ul>
+<li>Change the file permission to executable using the command <code>chmod +x gameapp-linux.AppImage</code>.</li>
+<li>Extract the executable&rsquo;s content using the command <code>./gameapp-linux.AppImage --appimage-extract</code>, enter the generated <code>squashfs-root</code> folder and run the <code>AppRun</code> file.</li>
+<li>Check the AppImage format&rsquo;s <a href="https://docs.appimage.org/user-guide/run-appimages.html#troubleshooting" target="_blank" rel="noopener">troubleshooting page</a>.</li>
+</ul>
+<h3 id="screenshots">Screenshots</h3>
+<p><img src="/images/tcc/menu.png" alt="Menu"></p>
+<p><img src="/images/tcc/city.png" alt="City"></p>
+<p><img src="/images/tcc/shop.png" alt="Shop"></p>
+<p><img src="/images/tcc/adventure.png" alt="Adventure"></p>
+<h2 id="subjective-comments">Subjective comments</h2>
+<h3 id="about-this-work">About this work</h3>
+<p>Since high school I have always been interested in the process of creating games, so much so that this was the main reason I chose to study computer science. Already at university I met the extension group USPGameDev, where I learned and taught a lot about the subject. In the middle of the third year I got an internship in the area, which I fell in love with and kept interning until today (end of the fourth year). Given my trajectory it would be no surprise if my final thesis were a game, however during university another subject captivated me: machine learning.</p>
+<p>The growing advance in AIs for games by OpenAI and DeepMind in recent years motivated me to combine the useful with the pleasant, however I was not very pleased with the fact that these AIs were produced only to explore the limits of the techniques, and not to evolve the existing techniques for creating AIs in games. That is when I had the idea of testing for myself how it is possible to create a game from scratch taking into account the existence of machine learning methods.</p>
+<p>Since I learned the Q-learning algorithm in MAC0425 I had been thinking about using it to create AIs for games, and I saw in MAC0499 the opportunity to test this idea. As I have developed games for four years, both for leisure and professionally, during the course I developed a game focused on exploring the reinforcement learning mechanic as much as possible and implemented methods that help train these AIs.</p>
+<p>As the project touched on several other topics (such as user experience, difficulty adaptation, AI performance, state machines, etc.) it was a challenge to make it not stray from scope and demand more time than available. To work around these problems, from the beginning of the project I thought about each thing that should be implemented and ordered them by priority, a method that helped a lot to prioritize important features and estimate the project&rsquo;s duration as a whole. Several of the ideas I thought of were not implemented, as mentioned in the last chapter of the monograph, so I will try to continue developing this game after the course.</p>
+<h3 id="about-the-course">About the course</h3>
+<p>Overall I was quite surprised by the course, it gave me the opportunity to develop a lot personally and professionally. One of the positive points is that the BCC professors are open to the students&rsquo; suggestions, which is why the extension groups emerged and why the curriculum was modified in 2016. On the other hand, it would be interesting if some more advanced systems development course (such as MAC0332, MAC0413, MAC0467, MAC0470 or MAC0472) were mandatory, so more students would have a better notion of the job market.</p>
+<p>Through USPGameDev I was able to express my desire to develop games, I learned from other people and got to know people outside the university who work in the area, which is why I am very grateful to it. In my opinion the course has been doing a great job supporting the existence of extension groups and recognizing that they play an important role in the undergraduate degree.</p>
+<h4 id="courses-i-used-in-the-project">Courses I used in the project</h4>
+<ul>
+<li><strong>MAC0425 - Artificial intelligence</strong>: The course introduced me to reinforcement learning and the Q-learning algorithm, which were essential to this work.</li>
+<li><strong>MAC0460 - Introduction to machine learning</strong>: The course helped me better understand how learning methods work. Specifically, I learned how neural networks work and how they are trained, which is also an essential part of this work.</li>
+<li><strong>MAE0515 - Introduction to game theory</strong>: To describe the interaction between agents (player vs. AI) it was necessary to use some knowledge about decision theory, which I learned in MAE0515.</li>
+<li><strong>MAE0119 - Introduction to probability and statistics &amp; MAE0221 - Probability I</strong>: Both courses were important for me to understand how all the more complex algorithms used in this work work (such as Q-learning, neural networks and CAP) and for it to be possible to develop probabilistic algorithms (such as random graph generation).</li>
+<li><strong>MAC0110 - Introduction to computing &amp; MAC0121 - Algorithms and data structures I &amp; MAC0323 - Algorithms and data structures II</strong>: The three courses were fundamental to the development of the whole project. MAC0110 taught me to program, MAC0121 introduced me to data structures and MAC0323 showed me how to deal with object inheritance and how to organize code so it is more modular.</li>
+<li><strong>MAE0228 - Notions of probability and stochastic processes</strong>: The behavior of an autonomous agent is described as a Markov decision process. MAE0228 introduced me to this concept and helped me better understand how it works.</li>
+<li><strong>MAT0112 - Vectors and geometry &amp; MAT0122 - Linear algebra I</strong>: Neural networks and the error backpropagation algorithm are based on matrix multiplication and inner product; the navigation in the space of functions by the network requires knowledge of vector spaces.</li>
+<li><strong>MAT2453 - Differential and integral calculus I &amp; MAT2454 - Differential and integral calculus II &amp; MAT0236 - Differentiable functions and series</strong>: The three courses were fundamental for me to understand the neural network algorithms.</li>
+<li><strong>FLC0474 - Portuguese language</strong>: The course helped me remember high school content and helped in writing the monograph and the presentation.</li>
+</ul>
+<h4 id="courses-that-may-be-useful-if-the-project-continues-in-the-future">Courses that may be useful if the project continues in the future</h4>
+<ul>
+<li><strong>MAC0328 - Graph algorithms</strong>: Since the adventures are graphs, the course provided algorithms that can be useful in developing more complex adventures.</li>
+</ul>
+<h4 id="other-courses-that-could-have-been-useful-if-taken">Other courses that could have been useful if taken</h4>
+<ul>
+<li><strong>MAC0346 - Programming for digital games</strong>: Probably the knowledge that would have been acquired in this course was already acquired through USPGameDev and the internship, but I think the course is important for people who want to have a notion of game development as a whole, since this knowledge can take a while to be acquired in practice.</li>
+<li><strong>MAC0322 - Software engineering</strong>: Could have been useful in organizing the software as a whole, from the design of the classes&rsquo; APIs to how they relate to each other.</li>
+<li><strong>MAC0426 - Database systems</strong>: Could have been useful in developing the game&rsquo;s data persistence system.</li>
+</ul>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+          
+          <div class="col-md-6 share-buttons">
+            
+          </div>
+
+          
+          
+        </div>
+
+
+
+        
+        <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/works/hackathons/smart-cities/" title="Hackathon USP 2017" class="btn filled-button">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Hackathon USP 2017</div>
+      </a>
+    </div>
+  
+  
+</div>
+
+        <hr />
+
+        
+        
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left"
+    title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+<section class="toc-section" id="toc-section">
+  
+</section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#accomplishments">Accomplishments</a>
+                </li>
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="works">Works</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:jgabriel.basi@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>jgabriel.basi@gmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_be7279b2506ad3f1.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2026 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.cba6af7d603be40595f3ca32616c79183d8613ccb90604e0e55b3df4a465eb23.js" integrity="sha256-y6avfWA75AWV88oyYWx5GD2GE8y5BgTg5Vs99KRl6yM=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>

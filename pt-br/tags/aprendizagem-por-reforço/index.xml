@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aprendizagem Por Reforço on João&#39;s site</title>
+    <link>http://localhost:1313/pt-br/tags/aprendizagem-por-refor%C3%A7o/</link>
+    <description>Recent content in Aprendizagem Por Reforço on João&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 -0300</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/aprendizagem-por-refor%C3%A7o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCC</title>
+      <link>http://localhost:1313/pt-br/works/university/tcc/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/works/university/tcc/</guid>
+      <description>&lt;p&gt;Criação de um jogo com dificuldade dinâmica e aprendizagem por reforço.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aluno:&lt;/strong&gt; João Gabriel Basi
+&lt;strong&gt;Supervisor:&lt;/strong&gt; Prof. Dr. Roberto Hirata Jr.&lt;/p&gt;
+&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Jogos no estilo &lt;em&gt;player versus environment&lt;/em&gt; (PvE), em contraste com jogos no estilo &lt;em&gt;player versus player&lt;/em&gt; (PvP), são jogos onde o jogador combate vários inimigos controlados por inteligências artificiais para cumprir os objetivos do jogo. Nesse estilo, é comum que os desenvolvedores modelem os inimigos como sendo agentes autônomos, pelo fato deles tomarem decisões sem a intervenção humana.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
